@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px normal black;
+    border-radius: 8px;
+    gap: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.contactInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.deleteBtn{
+    padding: 7px 12px;
+    border-radius: 8px;
+    font-size: 12px;
+    line-height: 16px;
+    background-color: red;
+    border: none;
+    color: white;
+}
+.deleteBtn:focus{
+    outline: none;
+}
+.deleteBtn:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}

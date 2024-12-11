@@ -14,3 +14,8 @@ Tailwind CSS & Framer Motion: Enhanced the visual design and animations to creat
 This structure ensures an efficient, clean, and user-friendly experience, with seamless navigation, smooth animations, and real-time notifications.
 
 API : https://connections-api.goit.global/docs/
+
+
+![1](https://github.com/user-attachments/assets/d04babb7-8b35-4372-b54b-6da16b88b85a)
+
+![2](https://github.com/user-attachments/assets/6b4fe023-a3e0-4d8a-bb0c-ba8cfbc4aac6)

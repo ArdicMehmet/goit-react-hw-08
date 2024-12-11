@@ -1,13 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useSelector } from "react-redux";
 import { selectToken } from "../../redux/auth/selectors";
-import { Navigate, Outlet } from "react-router";
+import { useNavigate, Outlet } from "react-router";
 
 const GeneralRoutes = () => {
   const token = useSelector(selectToken);
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (token) {
+      navigate("/home", { replace: true });
+    }
+  }, [token, navigate]);
+
   if (token) {
-    return <Navigate to="/home" />;
+    return null;
   }
+
   return <Outlet />;
 };
 

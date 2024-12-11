@@ -26,7 +26,7 @@ function App() {
     } else {
       dispatch(setLoading(false));
     }
-  }, [token, dispatch]);
+  }, [token]);
 
   if (isLoading) {
     return <LoadingScreen />;

@@ -104,12 +104,12 @@ const Navbar = () => {
           {isLoggedIn ? (
             <>
               <span className="block text-white py-2">Welcome, {username}</span>
-              <NavLink
-                to="/logout"
+              <button
+                onClick={handleLogout}
                 className="block bg-red-500 hover:bg-red-600 text-white py-2 px-4 rounded mt-2"
               >
                 Logout
-              </NavLink>
+              </button>
             </>
           ) : (
             <>
